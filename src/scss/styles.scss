@@ -1,8 +1,6 @@
 //global styles
-@import 'global/_base';
-
-//modules styles
-@import 'modules/_example-module';
+@import 'global/_reset';
 
 //layout styles
-@import 'layout/_example-section';
+@import 'layout/_header';
+@import 'layout/_services';
