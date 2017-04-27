@@ -1,0 +1,41 @@
+.header-section {
+
+  .top-bar {
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #0d0b11;
+    padding: 30px 115px;
+
+
+
+
+    .logo {
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+      span {
+        font-weight: 700;
+      }
+
+
+    }
+    .menu {
+      float: right;
+
+      li {
+        display: inline;
+        margin: 0 25px;
+
+        &:last-child {
+          margin-right: 0px;
+        }
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
