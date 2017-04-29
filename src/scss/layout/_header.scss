@@ -1,15 +1,10 @@
 .header-section {
-
   .top-bar {
     font-family: "Open Sans", serif;
     font-size: 14px;
     font-weight: 400;
     background-color: #0d0b11;
-    padding: 30px 115px;
-
-
-
-
+    padding: 30px 0;
     .logo {
       font-size: 18px;
       color: #fff;
@@ -17,25 +12,70 @@
       span {
         font-weight: 700;
       }
-
-
     }
     .menu {
       float: right;
-
       li {
         display: inline;
         margin: 0 25px;
-
         &:last-child {
-          margin-right: 0px;
+          margin-right: 0;
         }
-
         a {
           color: #fff;
           text-decoration: none;
+          &:hover {
+            color: #ea5b58;
+          }
         }
+
       }
     }
   }
-}
+  .title-section {
+    background-color: #161828;
+    color: #fff;
+    font-family: "Open Sans", serif;
+    padding: 56px 0 67px 0;
+        .title {
+          font-size: 36px;
+          margin-top: 64px;
+          margin-bottom: 45px;
+          font-weight: 700;
+        }
+        .subtitle {
+          font-size: 24px;
+          font-weight: 400;
+          margin-bottom: 86px;
+        }
+        .more-button {
+          background-color: #ea5b58;
+          font-size: 18px;
+          text-align: center;
+          text-decoration: none;
+          color: #fff;
+          font-weight: 400;
+          border-radius: 4px;
+          padding: 20px 49px;
+          }
+
+        #rectangle {
+          width: 464px;
+          height: 347px;
+          background-color: #fff;
+          border-radius: 4px;
+          float: right;
+          box-shadow: -1px 1px 0px #676872,
+                      -2px 2px 0px #676872,
+                      -4px 4px 0px #676872,
+                      -6px 6px 0px #676872,
+                      -8px 8px 0px #676872,
+                      -10px 10px 0px #676872,
+                      -12px 12px 0px #676872,
+                      -14px 14px 0px #676872,
+                      -16px 16px 0px #676872,
+                      -18px 18px 0px #676872,
+                      -20px 20px 0px #676872;
+      }
+    }
+  }
