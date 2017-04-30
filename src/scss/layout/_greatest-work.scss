@@ -1,0 +1,20 @@
+.greatest-work {
+  background: url("/img/pattern-parallax.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top: 194px;
+  padding-bottom: 149px;
+  font-family: "Open Sans", serif;
+  color: #fff;
+  .work-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .work-subtitle {
+    font-size: 24px;
+  }
+}

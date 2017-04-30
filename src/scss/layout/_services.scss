@@ -1,0 +1,47 @@
+.services-section {
+  background-color: #475a85;
+  font-family: "Open Sans", serif;
+  text-align: center;
+  color: #fff;
+  padding-top: 72px;
+  padding-bottom: 100px;
+
+  .title-services {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .subtitle-services {
+    font-size: 18px;
+    margin-bottom: 26px;
+  }
+  .line {
+    margin: 0 auto;
+    margin-bottom: 87px;
+  }
+  .services-img {
+    margin-bottom: 22px;
+    width: 41px;
+    height: 39px;
+
+  }
+  .service-name {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .service-description {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  .more-service-button {
+    background-color: #ea5b58;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 13px 27px;
+  }
+}
