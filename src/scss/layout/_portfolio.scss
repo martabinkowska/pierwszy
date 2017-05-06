@@ -1,0 +1,89 @@
+.portfolio {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 91px;
+  padding-bottom: 46px;
+  .portfolio-title {
+    color: #323232;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 17px;
+  }
+  .portfolio-subtitle {
+    color: #323232;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .portfolio-separator {
+    margin-bottom: 85px;
+
+  }
+  .portfolio-sections {
+    font-style: "Open Sans", serif;
+    margin-bottom: 47px;
+    li {
+      display: inline;
+    }
+    li + li:before {
+      content: " / ";
+      color: #323232;
+
+    }
+    a {
+      text-decoration: none;
+      color: #a7a7a7;
+      &:hover {
+        color: #323232;
+      }
+    }
+  }
+  .portfolio-img {
+    background-color: #7b7b7b;
+    width: 370px;
+    height: 288px;
+    margin-bottom: 37px;
+    .portfolio-hover {
+      background-color: #506083;
+      font-family: "Open Sans", serif;
+      color: #fff;
+      width: 100%;
+      height: auto;
+      display: none;
+      padding: 74px 49px 51px 49px;
+      line-height: 18px;
+      .img-title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 22px;
+      }
+      .img-subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 26px;
+      }
+    }
+    &:hover .portfolio-hover{
+      display: block;
+    }
+  }
+  .portfolio-browse {
+    color: #323232;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+  }
+  .portfolio-shape {
+
+  }
+
+
+}
