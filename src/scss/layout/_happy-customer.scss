@@ -1,0 +1,70 @@
+.happy-customer {
+  background-color: #fff;
+  padding-top: 53px;
+  padding-bottom: 99px;
+  font-family: "Open Sans", serif;
+  color: #323232;
+  .customer-say {
+    font-weight: 700;
+    text-align: center;
+    .happy-title {
+      font-weight: 700;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .happy-subtitle {
+      font-weight: 400;
+      font-size: 18px;
+      margin-bottom: 17px;
+    }
+    .happy-separator {
+      margin-bottom: 48px;
+    }
+  }
+  .happy-circle {
+    margin-bottom: 59px;
+  }
+  .happy-quotes {
+    position: relative;
+    &:before {
+    content: "“";
+    color: #323232;
+    font-size: 60px;
+    font-family: "Times New Roman";
+    font-style: oblique;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    }
+    .happy-review {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: italic;
+      margin-top: 70px;
+      margin-bottom: 30px;
+      line-height: 30px;
+      text-align: justify;
+    }
+    .happy-name {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+  .happy-dots {
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 0 5px;
+    }
+    .happy-dot {
+      text-align: center;
+      border-radius: 50%;
+      background-color: #7b7b7b;
+      width: 23px;
+      height: 23px;
+      &:hover {
+        background-color: #323232;
+      }
+    }
+  }
+}

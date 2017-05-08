@@ -21,7 +21,7 @@ gulp.task('sass', function() {
 		.pipe(sass().on('error', sass.logError))
 		.pipe(autoprefixer()) // in case of something not working change to 'last 10 versions'
 		.pipe(gulp.dest('./dist/css'))
-        .pipe(browserSync.stream()); 
+        .pipe(browserSync.stream());
 
 });
 
@@ -30,7 +30,7 @@ gulp.task("concat", function() {
 	return gulp.src('src/js/*.js')
 		.pipe(concat('app.js'))
 		.pipe(gulp.dest('dist/js/'))
-}) 
+})
 
 //html include
 gulp.task("fileinclude", function() {
@@ -39,7 +39,8 @@ gulp.task("fileinclude", function() {
       prefix: '@@',
       basepath: '@file'
     }))
-    .pipe(gulp.dest('dist/'));
+    .pipe(gulp.dest('dist/'))
+		.pipe(browserSync.stream());
 })
 
 // Watch
@@ -92,4 +93,3 @@ gulp.task('default', function() {
 	runSequence('clean-dist', 'sass', 'concat', 'fileinclude', 'watch', 'serve', 'build');
 
 });
-

@@ -1,0 +1,54 @@
+.contact {
+  background-color: #475a85;
+  color: #fff;
+  font-family: "Open Sans", serif;
+  padding-top: 99px;
+  padding-bottom: 94px;
+  text-align: center;
+  .contact-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 17px;
+  }
+  .contact-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .contact-separator {
+    margin-bottom: 67px;
+  }
+  .contact-datum {
+    text-align: left;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    .office-hours-title {
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+    .office-hours-subtitle {
+      margin-bottom: 33px;
+    }
+    .contact-list {
+      }
+      li {
+        margin-bottom: 27px;
+        &:last-child {
+          margin-bottom: 54px;
+        }
+        .contact-img {
+          margin-right: 10px;
+
+
+        }
+      }
+    .contact-social {
+      .contact-social-img {
+        margin-right: 18px;
+
+      }
+
+    }
+  }
+}
