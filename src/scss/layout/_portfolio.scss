@@ -22,7 +22,7 @@
 
   }
   .portfolio-sections {
-    font-style: "Open Sans", serif;
+    font-family: "Open Sans", serif;
     margin-bottom: 47px;
     li {
       display: inline;
@@ -65,7 +65,7 @@
         margin-bottom: 26px;
       }
     }
-    &:hover .portfolio-hover{
+    &:hover .portfolio-hover {
       display: block;
     }
   }

@@ -39,16 +39,22 @@
         }
         .contact-img {
           margin-right: 10px;
-
-
         }
       }
     .contact-social {
-      .contact-social-img {
-        margin-right: 18px;
-
+      img {
+        width: 35px;
+        height: 35px;
+        margin-right: 17px;
       }
-
+      .contact-social-hover {
+        display: none;
+      }
+      .contact-social-grey {
+      }
+      .contact-social-grey:hover .contact-social-hover {
+        display: block;
+      }
     }
   }
 }
